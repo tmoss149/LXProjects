@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+}
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.strapline-container {
+    border: 2px solid rgb(207, 19, 107);
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./images/donuts1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-strapline {
+    color: rgb(207, 19, 107);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-strapline {
+    color: #FFFFDD;
+
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45%;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;;
+}
+
+.right-box {
+    width: 40%;
+    margin-left: 6%;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/toronto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffee.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffee2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/donuts2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.donuts-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-item:hover{
+    opacity: 0.8;
+}
+
+#donut-one {
+    background-image: url(./images/donut1.jpg);
+
+}
+
+#donut-two {
+    background-image: url(./images/donut2.jpeg);
+}
+
+#donut-three {
+    background-image: url(./images/donuts2.jpg);
+}
+
+#donut-four {
+    background-image: url(./images/donut4.jpg);
+}
+
+#donut-five {
+    background-image: url(./images/donut5.jpeg);
+}
+
+#donut-six {
+    background-image: url(./images/donut6.jpg);
+}
+
+#donut-seven {
+    background-image: url(./images/donut7.jpeg);
+}
+
+#donut-eight {
+    background-image: url(./images/donut8.jpeg);
+}
+
+#donut-nine {
+    background-image: url(./images/donut9.jpg);
+}
+
+.stores-section {
+    width: 100vw;
+}
+
+.stores-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {
+    width: 30%; 
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: #FFFFDD
+}
+
+.contact-title {
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email {
+    font-size: 130%;
+}
+
+.social-media-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+.social-media-icon {
+    margin: 0px 7.5px;
+}
